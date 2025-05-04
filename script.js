@@ -9,5 +9,14 @@ function limpar() {
 }
 
 function calcular() {
-    display.value = "Resultado: " + eval(display.value);
+  try {
+    display.value = eval(display.value);
+  } catch {
+    display.value = 'Erro';
+  }
+}
+function adicionarHistorico(item) {
+    const li = document.createElement('li');
+    li.textContent = item;
+    listaHistorico.appendChild(li);
   }
