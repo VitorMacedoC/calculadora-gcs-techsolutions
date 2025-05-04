@@ -13,4 +13,20 @@ body {
     margin: 5px;
     padding: 10px;
   }
+  #historico {
+    margin-top: 20px;
+    max-width: 300px;
+  }
+  
+  #historico ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  #historico li {
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 4px 0;
+  }
+  
   
