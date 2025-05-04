@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .calculadora {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .botoes button {
+    margin: 5px;
+    padding: 10px;
+  }
+  
