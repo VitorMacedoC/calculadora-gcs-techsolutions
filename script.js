@@ -9,9 +9,5 @@ function limpar() {
 }
 
 function calcular() {
-  try {
-    display.value = eval(display.value);
-  } catch {
-    display.value = 'Erro';
+    display.value = "Resultado: " + eval(display.value);
   }
-}
